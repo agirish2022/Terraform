@@ -1,4 +1,4 @@
-# Terraform
+# Apigee X - Evaluation Org Provisioning
 
 To prepare your GCP project for running the terraform script, you’ll have to enable the following Google APIs:
 

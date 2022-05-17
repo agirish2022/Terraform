@@ -6,26 +6,33 @@
 #  description = "GCP authentication file"
 #}
 
+# GCP authentication file
+variable "gcp_access_token" {
+  type        = string
+  description = "GCP access token"
+  sensitive   = true
+}
+
 # define GCP project name
 variable "app_project" {
-  type = string
+  type        = string
   description = "GCP project name"
 }
 
 # define application name
 variable "app_name" {
-  type = string
+  type        = string
   description = "Application name"
 }
 
 # define application domain
 variable "app_domain" {
-  type = string
+  type        = string
   description = "Application domain"
 }
 
 # define application environment
 variable "app_environment" {
-  type = string
+  type        = string
   description = "Application environment"
 }
